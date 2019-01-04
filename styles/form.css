@@ -1,5 +1,4 @@
 .form {
-    border: 2px solid rgba(25, 44, 214, 0.5);
     background-color: rgb(194, 215, 204);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
     width: 320px;
@@ -49,7 +48,7 @@ input[type="submit"] {
     -ms-border-radius: 10px;
     border-radius: 10px;
     background-image: linear-gradient(#0d3b1d, #2a4b19);
-    color: rgb(61, 177, 149);
+    color: #fff;
     font: small-caps 1.5rem/1.5 Arial, sans-serif;
     border: none;
     margin: 1rem auto;
@@ -63,7 +62,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-image: linear-gradient(#0f6128, #235c1e);
-    color: #9abd27;
+    color: #fff;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
