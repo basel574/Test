@@ -5,54 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/maincss.css">
 </head>
 <body>
-    <div>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic esse fugiat, amet excepturi dolorum sed. Culpa vel deleniti, vitae cum magnam at soluta perferendis iusto placeat reiciendis commodi provident deserunt.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam expedita repellat ea nisi optio recusandae fugit fuga, corporis necessitatibus. Porro sint saepe, quaerat laboriosam voluptatem, veritatis accusantium voluptatum nobis tempore laborum, voluptas, omnis facere. Ex esse excepturi vel, maxime consequatur, officiis perferendis aut fugiat. Illum voluptates animi accusantium. Neque!</p>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </table>
-    </div>
+    <div class="wrapper">
+        <h1>Tenetur numquam expedita</h1>
+        <div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            </ul>
+        </div><!--list-->
+        <main>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic esse fugiat, amet excepturi dolorum sed. Culpa vel deleniti, vitae cum magnam at soluta perferendis iusto placeat reiciendis commodi provident deserunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam expedita repellat ea nisi optio recusandae fugit fuga, corporis necessitatibus. Porro sint saepe, quaerat laboriosam voluptatem, veritatis accusantium voluptatum nobis tempore laborum, voluptas, omnis facere. Ex esse excepturi vel, maxime consequatur, officiis perferendis aut fugiat. Illum voluptates animi accusantium. Neque!</p>
+        </main><!--paragraphs-->
+        <div class="table">
+            <table>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                    <th>12</th>
+                </tr>
+                <tr>
+                    <th>13</th>
+                    <th>14</th>
+                    <th>15</th>
+                    <th>16</th>
+                </tr>
+            </table>
+        </div><!--table-->
 
-    <div>
-        
-    </div>
+        <div class="form">
+            <h3>Leave your feedback</h3>
+            <p><label for="userName">Name</label><input type="text" name="userName" id="userName" required></p>
+            <p><label for="male">Male</label><input type="radio" name="sex" value="m" id="male">
+            <label for="female">Female</label><input type="radio" name="sex" value="f" id="female"></p>
+            <p><label for="email">Email</label><input type="email" name="email" id="email" required></p>
+            <p><label for="subYes">Subscribe for news and updates</label><input type="checkbox" name="subscribe" id="subYes" value="yes" checked></p>
+            <div class="textwrapper"><label for="msg">Message</label><textarea name="msg" id="msg"></textarea></div>
+            <p><input type="submit" name="submit" value="Submit"></p>
+        </div>
+    </div><!--wrapper-->
     <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
