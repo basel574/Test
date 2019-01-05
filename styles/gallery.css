@@ -1,1 +1,15 @@
-
+.gallery img {
+    width: 200px;
+}
+.gallery {
+    margin: 30px auto;
+    width: 100%;
+    outline: 1px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cards {
+   min-height: 100vh;
+}

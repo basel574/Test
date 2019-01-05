@@ -6,6 +6,7 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    outline: 1px solid crimson;
 }
 main p {
     padding: 30px;
@@ -13,7 +14,6 @@ main p {
     border: 1px solid limegreen;
     font-family: Tahoma;
 }
-
 h1 {
     font: small-caps 3rem/1.5 'Times New Roman',serif;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
