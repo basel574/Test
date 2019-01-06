@@ -6,7 +6,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 .form > p {
     margin: 0.7rem 0;
