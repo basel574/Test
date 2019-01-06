@@ -9,16 +9,36 @@
     margin: 1rem auto;
 }
 .form > p {
-    margin: 0.7rem 0;
+    margin: 0 0;
 }
 .form h3 {
     margin: 0 auto;
     font-size: 2rem;
     color: rgb(62, 66, 48);
 }
-.textwrapper {
+/*Stars*/
+.form div:first-of-type {
+    margin: 0.5rem auto;
+    direction: rtl;
+}
+.star {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 0.2rem;
+}
+.star:hover, .star:hover ~ .star {
+    color: red;
+    transition: 0.2s;
+}
+.textwrapper { /*lifts the textarea label up*/
     display: flex;
     align-items: flex-start;
+}
+#userName, #email {
+    height: 2rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
 }
 input[type="radio"], input[type="checkbox"] {
     width: 20px;
@@ -48,18 +68,20 @@ input[type="submit"] {
     border-radius: 5px;
 }
 input[type="submit"]:hover {
-    background-image: linear-gradient(#235c1e, #0f6128);
+    color: #edff1c;
     box-shadow: 0 0 10px #edff1c;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
 }
 input:focus, textarea:focus {
     background-color: #f1ffac;
     outline: none;
     -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s;
 }
