@@ -1,0 +1,37 @@
+.cards {
+   min-height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: skyblue;
+   justify-content: center;
+   align-items: center;
+}
+.card {
+    display: flex;
+    flex: 0 0 250px;
+    outline: 1px solid green;
+    background-color: limegreen;
+    align-items: center;
+    flex-direction: column;
+}
+.card img {
+    width: 250px;
+}
+.card li {
+    font: normal 1rem/1.5 Verdana, sans-serif;
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0.5rem 0 0.5rem;
+    justify-content: center;
+}
+.card ul {
+    padding: 0;
+}
+.card button {
+    background-color: #d58703;
+    color: #fff;
+    border: none;
+    width: 80%;
+    height: 2rem;
+    margin: 1rem;
+}

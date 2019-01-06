@@ -9,30 +9,3 @@
     align-items: center;
     justify-content: center;
 }
-.cards {
-   min-height: 100vh;
-   display: flex;
-   flex-wrap: wrap;
-   background-color: skyblue;
-   justify-content: center;
-   align-items: center;
-}
-.card {
-  flex: 0 0 250px;
-  outline: 1px solid green;
-  background-color: limegreen;
-
-}
-.card img {
-    width: 250px;
-}
-.card li {
-    font: normal 1rem/1.5 Verdana, sans-serif;
-    list-style: none;
-    text-align: center;
-    margin: 1rem 0.5rem;
-
-}
-.card ul {
-    padding: 0;
-}
