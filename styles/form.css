@@ -6,35 +6,55 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 .form > p {
-    margin: 0.7rem 0;
+    margin: 0 0;
 }
 .form h3 {
     margin: 0 auto;
     font-size: 2rem;
     color: rgb(62, 66, 48);
 }
-.textwrapper {
-    display: flex;
-    align-items: flex-start;
+/*Stars*/
+.form div:first-of-type {
+    margin: 0.5rem auto;
+    direction: rtl;
 }
-input[type="radio"], input[type="checkbox"] {
+.star {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 0.2rem;
+}
+.star:hover, .star:hover ~ .star {
+    color: red;
+    transition: 0.2s;
+}
+.textwrapper { /*lifts the textarea label up*/
+    display: flex;
+    align-items: center;
+}
+#userName, #email {
+    height: 2rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+.form input[type="radio"], .form input[type="checkbox"] {
     width: 20px;
 }
-label {
+.form label {
     padding-right: 1rem;
     font-weight: bold;
     color: rgb(62, 66, 48);
 }
-label[for="male"]::before, label[for="subYes"]::before {
+.form label[for="male"]::before, .form label[for="subYes"]::before {
     content: "(optional)";
     color: #9e9e9e;
     padding-right: 5px;
     font-weight: normal;
 }
-input[type="submit"] {
+.form input[type="submit"] {
     width: 320px;
     height: 70px;
     background-image: linear-gradient(#0d3b1d, #2a4b19);
@@ -47,29 +67,31 @@ input[type="submit"] {
     -o-border-radius: 5px;
     border-radius: 5px;
 }
-input[type="submit"]:hover {
-    background-image: linear-gradient(#235c1e, #0f6128);
+.form input[type="submit"]:hover {
+    color: #edff1c;
     box-shadow: 0 0 10px #edff1c;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-input:focus, textarea:focus {
-    background-color: #f1ffac;
-    outline: none;
     -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s;
 }
-textarea, input {
+.form input:focus, .form textarea:focus {
+    background-color: #f1ffac;
+    outline: none;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+.form textarea, .form input {
     width: 250px;
     margin-top: 0.5rem;
     border: none;
     font-size: 1rem;
     line-height: 1.2;
 }
-textarea {
+.form textarea {
     height: 100px;
 }

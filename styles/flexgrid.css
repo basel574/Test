@@ -1,0 +1,14 @@
+.flexgrid {
+    border: 2px solid limegreen;
+    background-color: #cdffce;
+}
+.row {
+    display: flex;
+}
+
+.row_cell {
+    border: 2px solid orange;
+    flex: 1;
+    background-color: #c7c7c7;
+    margin: 5px;
+}

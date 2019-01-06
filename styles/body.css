@@ -1,22 +1,39 @@
 body {
     font-size: 16px;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
+}
+html::after {
+    content: '';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../images/pattern.png') repeat;
+    opacity: 0.2;
 }
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    outline: 1px solid crimson;
-}
-main p {
-    padding: 30px;
-    margin: 30px;
-    border: 1px solid limegreen;
-    font-family: Tahoma;
+    outline: 1px dashed crimson;
 }
 h1 {
     font: small-caps 3rem/1.5 'Times New Roman',serif;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     text-align: center;
     color: teal;
+}
+/*Article*/
+.hidden {
+    visibility: hidden;
+    color: #517cec;
+}
+.show:hover + .hidden {
+    visibility: visible;
+}
+.show {
+    border-bottom: 1px dotted black;
+    cursor: pointer;
 }

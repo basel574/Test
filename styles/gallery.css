@@ -1,7 +1,7 @@
 .gallery img {
     width: 200px;
 }
-.gallery {
+.gallery div {
     margin: 30px auto;
     width: 100%;
     display: flex;

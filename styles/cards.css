@@ -2,36 +2,37 @@
    min-height: 100vh;
    display: flex;
    flex-wrap: wrap;
-   background-color: skyblue;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
 }
 .card {
     display: flex;
     flex: 0 0 250px;
-    outline: 1px solid green;
-    background-color: limegreen;
+    background-color: #e7e7e7;
     align-items: center;
     flex-direction: column;
+    margin: 0.5rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
 }
 .card img {
     width: 250px;
 }
 .card li {
-    font: normal 1rem/1.5 Verdana, sans-serif;
+    font: normal 0.9rem/1.5 Verdana, sans-serif;
     list-style: none;
     text-align: center;
-    margin: 1rem 0.5rem 0 0.5rem;
+    margin: 0.5rem 0;
     justify-content: center;
 }
 .card ul {
     padding: 0;
+    margin: 0;
 }
 .card button {
     background-color: #d58703;
     color: #fff;
     border: none;
     width: 80%;
-    height: 2rem;
+    height: 2.5rem;
     margin: 1rem;
 }
