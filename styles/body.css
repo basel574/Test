@@ -19,19 +19,12 @@ html::after {
     margin: 0 auto;
     outline: 1px dashed crimson;
 }
-main p {
-    padding: 30px;
-    margin: 30px;
-    border: 1px solid limegreen;
-    font-family: Tahoma;
-}
 h1 {
     font: small-caps 3rem/1.5 'Times New Roman',serif;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     text-align: center;
     color: teal;
 }
-
 /*Article*/
 .hidden {
     visibility: hidden;
