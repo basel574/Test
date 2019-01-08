@@ -1,11 +1,28 @@
-.gallery img {
-    width: 200px;
-}
-.gallery div {
-    margin: 30px auto;
-    width: 100%;
+.gallery {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
+div.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Preview pic*/
+.row img {
+    width: 12%;
+}
+/*Zoom-view window*/
+div.zoom_view {
+    width: 50%;
+    border: 2px solid skyblue;
+    padding: 0.5rem;
+    background-color: #fff;
+    margin: 0.5rem auto;
+    position: relative;
+}
+/*Zoom-viewed pic*/
+.zoom_view img {
+    width: 100%;

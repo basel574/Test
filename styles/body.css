@@ -28,10 +28,7 @@ h1 {
 /*Article*/
 .hidden {
     visibility: hidden;
-<<<<<<< HEAD
     color: #517cec;
-=======
->>>>>>> 65e68009a6e347aa5f1737f9e3fb8e603c1e55e2
 }
 .show:hover + .hidden {
     visibility: visible;
